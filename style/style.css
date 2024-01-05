@@ -105,17 +105,39 @@ nav ul li a {
     margin-bottom: 16px;
 }
 
+/* main style here*/
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 /* about styles*/
 .about {
      text-align: center;
      background-color:#FFF8F3; 
      padding: 131px;
      margin: 130px 0px;
+     border-radius: 20px;
 }
 
 .about .description {
       max-width: 800px;
-      margin: auto;
-      
+      margin:  0px auto;
+
 }
 
+div .info {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 20px;
+}
+
+.info-title {
+    margin-bottom: 0px;
+      
+}
+.info-description {
+     margin-top: 2px;
+}
