@@ -141,3 +141,36 @@ div .info {
 .info-description {
      margin-top: 2px;
 }
+
+.what-i-do {
+     text-align: center;
+     margin-bottom: 30px;
+}
+
+.what-i-do h2 {
+     text-transform: capitalize;
+     font-size: 30px;
+}
+
+.what-i-do p {
+      max-width: 800px;
+      margin: 0px auto;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.skills-item {
+    width: 267px;
+    height: 250px;
+    background-color: #FFF8F3;
+    margin: 20px;
+    padding: 20px  ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(102, 102, 102);
+}
+
+.skills-item p {
+     text-align: justify;
+}
