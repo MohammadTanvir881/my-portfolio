@@ -196,9 +196,47 @@ div .info {
       padding: 40px;
 }
 
-#btn-down {
-       position: relative;
-       right: 16%;
-       margin-top: 25px;
+.download-btn {
+     text-align: center;
+     margin-top: 0px;
 }
 
+/* footer styles*/
+
+footer {
+    display: flex;
+    background-color: #f5d9c6;
+    padding: 80px 200px 80px 200px;
+    margin-top: 80px;
+   
+}
+
+.colam {
+    margin: 30px 60px;
+}
+
+.colam p {
+     max-width: 500px;
+}
+
+.colam input {
+      display: inline-block;
+      margin: 10px 0px;
+      padding: 6px 100px 6px 5px ;
+      border-radius: 5px;
+      border: none;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+}
+
+.colam textarea {
+     border-radius: 5px;
+     border: none;
+     padding: 3px;
+}
+
+#Submit {
+     display: block;
+     margin-top: 5px;
+     padding: 10px 20px;
+}
