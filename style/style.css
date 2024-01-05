@@ -27,7 +27,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #FFF8F3;
-    margin: 0px 200px ;
+    margin: 0px 100px 0px 200px ;
     
 
 }
@@ -58,16 +58,64 @@ nav ul li a {
 /*header style */
 .header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 }
 
 .banner {
-     padding: 30px 30px 30px 200px;
+     padding: 30px 30px 0px 200px;
      display: flex;
      align-items: center;
+     justify-content: space-between;
 
 }
 
 .banner img {
     width: 500px;
     height: 550px;
+    padding-right: 50px;
+    
 }
+
+.banner .img2 {
+     width: 100px;
+     height: 95%;
+     position: absolute;
+     left: 4%;
+     top: 2%;
+}
+
+.banner-content h2 {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 0px;
+}
+
+.banner-content h1 {
+      font-size: 45px;
+      margin-top: 12px;
+      margin-bottom: 0px;
+}
+
+.banner-content p {
+    max-width: 585px;
+    margin-top: 9px;
+    margin-bottom: 16px;
+}
+
+/* about styles*/
+.about {
+     text-align: center;
+     background-color:#FFF8F3; 
+     padding: 131px;
+     margin: 130px 0px;
+}
+
+.about .description {
+      max-width: 800px;
+      margin: auto;
+      
+}
+
