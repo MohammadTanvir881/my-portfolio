@@ -211,6 +211,10 @@ footer {
    
 }
 
+.social-links a{
+    padding: 5px 30px 5px 0px;
+}
+
 .colam {
     margin: 30px 60px;
 }
